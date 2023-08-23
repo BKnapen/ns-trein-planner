@@ -1,5 +1,5 @@
 <?php
-    namespace Webkompanen\Nstreinplanner;
+    namespace App\Trips;
 
     class TripPlanner{
         public $fromStation;

@@ -3,7 +3,7 @@
     "description": "Plan je NS trein reis met de NS reisplanner",
     "autoload": {
         "psr-4": {
-            "Webkompanen\\Nstreinplanner\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [

@@ -1,7 +1,11 @@
 <?php
-    require_once "vendor/autoload.php";
+    //require_once "vendor/autoload.php";
+    require __DIR__ . "/vendor/autoload.php";
+
+    use App\Trips\TripPlanner;
     
     $tripplanner = new TripPlanner();
+    
     $tripplanner->set_fromStation("Eindhoven");
     $tripplanner->set_toStation("Utrecht");
     $tripplanner->set_departDateTime("2023-08-23T20:00:00+0200");
