@@ -1,0 +1,15 @@
+{
+    "name": "webkompanen/nstreinplanner",
+    "description": "Plan je NS trein reis met de NS reisplanner",
+    "autoload": {
+        "psr-4": {
+            "Webkompanen\\Nstreinplanner\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "B. Knapen"
+        }
+    ],
+    "require": {}
+}
